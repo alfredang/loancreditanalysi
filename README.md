@@ -5,6 +5,8 @@ A Streamlit web app that ingests a loan portfolio (Excel) and computes per-loan
 `High` / `Critical`) from the four standard IFRS 9 credit risk inputs:
 EAD, PD, LGD, and WAL.
 
+**Live demo:** <https://creditloananalysis.streamlit.app/>
+
 ![Credit Risk Rating app](docs/screenshot.png)
 
 ## Features
