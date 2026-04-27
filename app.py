@@ -115,5 +115,18 @@ def main() -> None:
     )
 
 
+def render_footer() -> None:
+    st.markdown(
+        """
+        <hr style="margin-top: 3rem; margin-bottom: 1rem; border: none; border-top: 1px solid rgba(255,255,255,0.15);" />
+        <div style="text-align: center; color: rgba(255,255,255,0.55); font-size: 0.85rem; padding-bottom: 1rem;">
+            Powered by <a href="https://www.tertiarycourses.com.sg/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Tertiary Infotech Academy Pte Ltd</a>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 if __name__ == "__main__":
     main()
+    render_footer()
